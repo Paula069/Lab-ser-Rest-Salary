@@ -25,7 +25,7 @@ public class Service {
     private static Map<Integer, Person> personas = new HashMap();
 
     static {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             Person person = new Person();
             int id = i + 1;
             person.setId(id);
